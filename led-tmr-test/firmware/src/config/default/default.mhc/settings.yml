@@ -1,0 +1,14 @@
+configName: default
+folderName: led-tmr-test
+format_version: v1.0
+frameworkPath: ../../harmony3
+processor: PIC32MZ2048EFM100
+projectName: led-tmr-test
+settings:
+  PackageFilter: quick_docs;usb;csp_apps_pic32mz_ef;bsp;core;csp;core_apps_pic32mz_ef;
+  FORCE_OPTIMIZATION: 'false'
+  GENERATE_BACKUP: 'true'
+  TRUSTZONE: 'false'
+  CMSISPath: ./dev_packs/arm/CMSIS/5.7.0
+  MERGE_STRATEGY: OVERWRITE
+  DFPPath: ./dev_packs/Microchip/PIC32MZ-EF_DFP/1.3.57/atdf/PIC32MZ2048EFM100.atdf
